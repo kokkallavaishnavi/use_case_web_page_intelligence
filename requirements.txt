@@ -1,0 +1,121 @@
+# Web Page Intelligence for Bot Testing - Dependencies
+# ====================================================
+
+# Core Framework
+streamlit>=1.28.0
+asyncio-throttle>=1.0.2
+
+# Web Scraping
+playwright>=1.40.0
+beautifulsoup4>=4.12.2
+requests>=2.31.0
+validators>=0.22.0
+
+# LLM and AI
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-community>=0.0.20
+langchain-huggingface>=0.0.3
+groq>=0.4.0
+
+# Embeddings and Vector Store
+sentence-transformers>=2.2.2
+chromadb>=0.4.18
+huggingface-hub>=0.19.4
+
+# Data Processing
+pandas>=2.1.4
+numpy>=1.24.3
+openpyxl>=3.1.2
+python-dotenv>=1.0.0
+
+# Text Processing
+regex>=2023.10.3
+nltk>=3.8.1
+spacy>=3.7.2
+
+# Utilities
+python-dateutil>=2.8.2
+python-multipart>=0.0.6
+aiofiles>=23.2.1
+tenacity>=8.2.3
+pydantic>=2.5.0
+
+# Development and Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.1
+
+# Optional: GPU support (uncomment if using CUDA)
+# torch>=2.1.0
+# torchvision>=0.16.0
+# torchaudio>=2.1.0
+
+# Optional: Additional NLP libraries
+# transformers>=4.36.0
+# datasets>=2.15.0
+
+# System and Security
+cryptography>=41.0.8
+urllib3>=2.1.0
+certifi>=2023.11.17
+
+# Monitoring and Logging
+loguru>=0.7.2
+psutil>=5.9.6
+
+# Database (if needed for advanced features)
+sqlalchemy>=2.0.23
+alembic>=1.13.1
+
+# API and Web
+fastapi>=0.104.1
+uvicorn>=0.24.0
+
+
+# File Handling
+
+
+
+# Date and Time
+pytz>=2023.3.post1
+datetime>=5.3
+
+# Environment and Configuration
+PyYAML>=6.0
+
+
+# Browser Automation Additional
+selenium>=4.15.2
+webdriver-manager>=4.0.1
+
+# Image Processing (if needed)
+Pillow>=10.1.0
+
+# Text Similarity and Analysis
+scikit-learn>=1.3.2
+textdistance>=4.6.0
+
+# Excel Advanced Features
+xlsxwriter>=3.1.9
+xlrd>=2.0.1
+
+# Async Support
+aiohttp>=3.9.1
+asyncpg>=0.29.0
+
+# Caching
+redis>=5.0.1
+diskcache>=5.6.3
+
+# Progress Bars and UI
+tqdm>=4.66.1
+rich>=13.7.0
+
+# Memory Management
+psutil>=5.9.6
+memory-profiler>=0.61.0
+
+json-repair>=0.21.0
